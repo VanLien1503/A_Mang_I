@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện Tập Mảng 01</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<table>
+    <tr>
+        <th>Bài 01</th>
+        <th>
+            <div>
+                Viết chương trình khởi tạo mảng số nguyên gồm 10 phần tử<br>
+                Chương trình thực hiện tính và hiển thị xem có bao nhiêu số<br>
+                nguyên lớn hơn hoặc bằng 10.
+            </div>
+        </th>
+        <td>
+            <input id="number" type="number">
+            <button onclick="random()" type="button">Run</button>
+            <p id="resuleArr"> Hàm Arr</p>
+            <div id="resule"> Số Lớn Hơn Hoặc Bằng 10
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <th>Bài 02</th>
+        <th>Viết chương trình khởi tạo mảng số nguyên gồm 10 phần tử khác nhau<br>
+            Chương trình hiển thị ra được phần tử có giá trị lớn nhất trong mảng <br>
+            và vị trí của phần tử đó.
+        </th>
+        <td>
+            <button onclick="check2()" type="button">Check</button>
+            <div id="resultMAX"></div>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Bài 03
+        </th>
+        <th>Viết chương trình khởi tạo mảng số nguyên.<br>
+            Hiển hiện giá trị lớn nhất trong mảng đó. <br>
+            In ra giá trị trung bình của các phần tử trong mảng.
+        </th>
+        <td>
+            <div id="resultTB"></div>
+        </td>
+    </tr>
+    <tr>
+        <th>Bài 04</th>
+        <th>Viết chương trình khởi tạo/nhập vào một mảng số nguyên<br>
+            và đảo ngược các phần tử trong mảng đó.
+        </th>
+        <td>
+            <button onclick="checkArr()" type="button">Đảo Ngược Mảng</button>
+            <div id="ruslutReve"></div>
+        </td>
+    </tr>
+    <tr>
+        <th>Bài 05</th>
+        <th> Viết chương trình đếm số nguyên âm trong một chuỗi</th>
+        <td>
+            <button onclick="check05()" type="button">CheckVowel</button>
+            <div id="Vowel"></div>
+        </td>
+    </tr>
+    <tr>
+        <th>Bài 06</th>
+        <th>Nhập 1 số Kiểm Tra Xem Có Trong Mảng Không?<br>
+            Nếu Có In ra is "in the array"<br>
+            Nếu Không có In ra "is not in the array"
+        </th>
+        <td>
+            <input id="checkNumber" placeholder="Nhập số cần kiểm tra" type="number">
+            <button onclick="checkNumber()" type="button">CheckNumber</button>
+            <div id="resultNumber"></div>
+        </td>
+    </tr>
+    <tr>
+        <th>Bài 07</th>
+        <th>Kiểm Tra 1 Số Nhập Vào Có Trong Mảng Không<br>
+            Nếu Có đổi Chỗ Phần tử đó Sang bên phải
+        </th>
+        <td>
+            <p id="resultNewArr"></p>
+        </td>
+    </tr>
+    <tr>
+        <th>Bài 08</th>
+        <th>Sắp Xếp Các Phần Tử Trong Mảng Có Thứ Tự Tăng Dần
+        </th>
+        <td>
+            <button onclick="checkSort()" type="button">Sort</button>
+            <p id="resularr"></p>
+            <p id="resultSort">Mảng Arr Thứ Tự Tăng Dần</p>
+        </td>
+    </tr>
+    <tr>
+        <th>Bài09</th>
+        <th>Cộng 2 Mảng a và b</th>
+        <td>
+            <button onclick="arrConcat()" type="button">Concat</button>
+            <p id="Arr1"></p>
+            <p id="Arr2"></p>
+        </td>
+    </tr>
+</table>
+<script src="app.js"></script>
+</body>
+</html>
